@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pcsv3.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand" >
+        
+        <Label Text="Welcome To Pool Care Systems" />
+        <Button  Margin="20,200,20,20" BackgroundColor="Blue"
+                 TextColor="White"
+                 Text="Siguiente"/>
+    </StackLayout>
+ 
+
+</ContentPage>
