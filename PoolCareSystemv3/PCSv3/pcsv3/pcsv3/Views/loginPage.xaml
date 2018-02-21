@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pcsv3.loginPage"
+             BackgroundColor="White"
+             >
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand"
+            Margin="20">
+            <Image Source="login1.png" />
+            <Label TextColor="Black" FontSize="Large"
+                Text="Login to Pool Care systems"/>
+            <Button x:Name="btnlogin" Text="Login"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+                    FontSize="Large"
+                    />
+            <BoxView Margin="20,50,20,20" Color="Black"
+             WidthRequest="200"
+             HeightRequest="2"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+            <Label TextColor="Black"                   
+                   FontSize="Large"
+                   Text="¿New User?"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"/>           
+
+            <Button x:Name="btnRegisterNow" Text="Register Now"                    
+                    BackgroundColor="White"
+                    TextColor="Blue"                    
+                    FontSize="Large"
+                    />
+
+        </StackLayout>
+      
+    </ContentPage.Content>
+</ContentPage>

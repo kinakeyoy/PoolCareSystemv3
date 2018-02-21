@@ -12,6 +12,12 @@ namespace pcsv3.Views
 		public MainPage ()
 		{
 			InitializeComponent ();
+            btnsig.Clicked += Btnsig_Clicked;
 		}
-	}
+
+        private void Btnsig_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new loginPage());
+        }
+    }
 }

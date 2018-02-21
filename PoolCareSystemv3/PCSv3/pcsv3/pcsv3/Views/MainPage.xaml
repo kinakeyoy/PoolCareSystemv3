@@ -7,8 +7,8 @@
     <StackLayout HorizontalOptions="CenterAndExpand"
                  VerticalOptions="CenterAndExpand" >
         
-        <Label Text="Welcome To Pool Care Systems" />
-        <Button  Margin="20,200,20,20" BackgroundColor="Blue"
+        <Label Text="Welcome To Pool Care System" />
+        <Button x:Name="btnsig" Margin="20,200,20,20" BackgroundColor="Blue"
                  TextColor="White"
                  Text="Siguiente"/>
     </StackLayout>
