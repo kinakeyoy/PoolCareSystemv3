@@ -8,7 +8,7 @@
     <StackLayout HorizontalOptions="CenterAndExpand"
                  VerticalOptions="CenterAndExpand" >
         
-        <Label Text="Welcome To Pool Care System monshi" TextColor="Black"/>
+        <Label Text="Welcome To Pool Care System" TextColor="Black"/>
         <Button x:Name="btnsig" Margin="20,200,20,20" BackgroundColor="Blue"
                  TextColor="White"
                  Text="Siguiente"/>
