@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pcsv3.Views.LoginPageID003"
+             BackgroundColor="White"
+             >
+
+    <StackLayout x:Name="Stackprincipal"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Start"                                            
+                 Padding="20"            
+                 >
+
+        <StackLayout x:Name="Stackmail"
+            HorizontalOptions="Center"
+                 VerticalOptions="Start"
+                 Padding="10"
+                 WidthRequest="400"
+                     >
+
+            <Entry x:Name="mail"
+               BackgroundColor="Gray"
+               TextColor="Black"
+               Keyboard="Email"
+               Placeholder="javier.norena@gmail.com" 
+               PlaceholderColor="Black" 
+               HorizontalTextAlignment="Center"
+                WidthRequest="400"
+                      
+               />
+
+        </StackLayout>
+        <StackLayout x:Name="Stackpass"
+            HorizontalOptions="Center"
+                 VerticalOptions="Start"
+                 Padding="10"
+                 WidthRequest="400"
+                     >
+            
+               <Entry x:Name="pass"
+               BackgroundColor="Gray"
+               TextColor="Black"
+               Keyboard="Email"
+               Placeholder="********" 
+               PlaceholderColor="Black" 
+               HorizontalTextAlignment="Center"
+                WidthRequest="400"
+                      
+               />
+            
+        </StackLayout>
+        <StackLayout x:Name="Stacklogin"
+            HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                  Padding="40">
+            <Button BackgroundColor="#008CFF" 
+                Text="Log in"  
+                    WidthRequest="300"
+                    />
+        </StackLayout>
+        <StackLayout x:Name="Stackforgot"
+            HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                  Padding="30">
+            <Button BackgroundColor="Transparent" 
+                    TextColor="#008CFF"
+                    
+                    
+                Text="Forgot Pasword ?"  
+                    WidthRequest="200"
+                    />
+        </StackLayout>
+        <StackLayout x:Name="Stacksingup"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="Center"
+                Padding="20">
+            <Button x:Name="buttonsignup"
+                BackgroundColor="#008CFF" 
+                Text="Sign up"  
+                    WidthRequest="300"
+                    />
+        </StackLayout>
+
+
+
+    </StackLayout>
+   
+</ContentPage>
