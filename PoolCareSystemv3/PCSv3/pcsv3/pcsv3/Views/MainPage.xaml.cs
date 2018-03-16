@@ -17,7 +17,7 @@ namespace pcsv3.Views
 
         private void Btnsig_Clicked(object sender, EventArgs e)
         {
-            ((NavigationPage)this.Parent).PushAsync(new loginPage());
+            ((NavigationPage)this.Parent).PushAsync(new Page002());
         }
     }
 }

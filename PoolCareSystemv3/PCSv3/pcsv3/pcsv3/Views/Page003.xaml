@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="pcsv3.Views.LoginPageID003"
-             BackgroundColor="White"
-             >
-
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page003">
+    
     <StackLayout x:Name="Stackprincipal"
                  HorizontalOptions="Center"
                  VerticalOptions="Start"                                            
@@ -36,8 +36,8 @@
                  Padding="10"
                  WidthRequest="400"
                      >
-            
-               <Entry x:Name="pass"
+
+            <Entry x:Name="pass"
                BackgroundColor="Gray"
                TextColor="Black"
                Keyboard="Email"
@@ -47,7 +47,7 @@
                 WidthRequest="400"
                       
                />
-            
+
         </StackLayout>
         <StackLayout x:Name="Stacklogin"
             HorizontalOptions="CenterAndExpand"
@@ -84,5 +84,5 @@
 
 
     </StackLayout>
-   
+
 </ContentPage>
