@@ -7,7 +7,13 @@ namespace pcsv3.Views
         public Page003()
         {
             InitializeComponent();
-            
+            btnforgot.Clicked += Btnforgot_Clicked;
+        }
+
+        private void Btnforgot_Clicked(object sender, System.EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Page004());
+
         }
     }
 }

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page004"
+             BackgroundColor="White"
+             >
+    
+    <StackLayout x:Name="stackprincipal" 
+        HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 
+                 Padding="20"
+                 >
+        <Label x:Name="lblemail"
+               TextColor="Black"
+               Text="Enter your Email Addres or Phone"
+               HorizontalTextAlignment="Center"
+               />
+        <Entry x:Name="entrymail"
+               Placeholder="javier.noreña@gmail.com"
+               PlaceholderColor="Gray"               
+            />
+        <Button x:Name="btnemail"
+                Text="Send Code"
+                BackgroundColor="#008CFF"
+                Margin="0,50,0,0"
+            
+            />
+
+
+
+    </StackLayout>
+
+</ContentPage>

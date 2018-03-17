@@ -62,7 +62,8 @@
             HorizontalOptions="CenterAndExpand"
                  VerticalOptions="CenterAndExpand"
                   Padding="30">
-            <Button BackgroundColor="Transparent" 
+            <Button x:Name="btnforgot" 
+                BackgroundColor="Transparent" 
                     TextColor="#008CFF"
                     
                     
