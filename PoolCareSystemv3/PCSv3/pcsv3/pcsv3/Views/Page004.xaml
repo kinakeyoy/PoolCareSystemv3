@@ -9,8 +9,7 @@
     
     <StackLayout x:Name="stackprincipal" 
         HorizontalOptions="CenterAndExpand"
-                 VerticalOptions="CenterAndExpand"
-                 
+                 VerticalOptions="CenterAndExpand"                 
                  Padding="20"
                  >
         <Label x:Name="lblemail"
