@@ -9,7 +9,7 @@
     <StackLayout x:Name="Stackprincipal"                    
                     HorizontalOptions="CenterAndExpand"
                     VerticalOptions="CenterAndExpand"
-                    Padding="20"
+                    Padding="20" 
                     >
         <Label x:Name="lblemail"
                TextColor="Black"
@@ -20,7 +20,8 @@
         <Entry x:Name="entrymail"
                Placeholder="javier.noreña@gmail"
                PlaceholderColor="Gray" 
-               Focused
+               
+               
             />
         <Label x:Name="lblepass"
                TextColor="Black"
@@ -53,9 +54,8 @@
             
             />
 
-
-
     </StackLayout>
+    
     
     
 
