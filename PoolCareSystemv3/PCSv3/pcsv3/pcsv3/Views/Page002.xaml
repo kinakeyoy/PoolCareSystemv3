@@ -3,35 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="pcsv3.Views.Page002">
+             x:Class="pcsv3.Views.Page002"
+             BackgroundColor="White">
     
     <StackLayout VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-            Margin="20">
-        <Image Source="login1.png" />
+                 HorizontalOptions="CenterAndExpand"
+                 Margin="20">
+
+        <Image Source="login.png" Aspect="AspectFit" />
+        
         <Label TextColor="Black" FontSize="Large"
-                Text="Login to Pool Care systems"/>
+               Text="Login to Pool Care systems"
+               HorizontalOptions="CenterAndExpand"/>
+        
         <Button x:Name="btnlogin" Text="Login"
-                    BackgroundColor="Blue"
+                    BackgroundColor="#008CFF"
                     TextColor="White"
                     FontSize="Large"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="200"
+                    
                     />
+        
         <BoxView Margin="20,50,20,20" Color="Black"
-             WidthRequest="200"
-             HeightRequest="2"
-             VerticalOptions="Center" 
-             HorizontalOptions="Center" />
-        <Label TextColor="Black"                   
-                   FontSize="Large"
-                   Text="¿New User?"
-                   VerticalOptions="Center" 
-                   HorizontalOptions="Center"/>
+                 WidthRequest="200"
+                 HeightRequest="2"
+                 VerticalOptions="Center" 
+                 HorizontalOptions="Center" />
+        
+        <Label TextColor="Black"         
+               FontSize="Large"
+               Text="¿New User?"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"/>
 
         <Button x:Name="btnRegisterNow" Text="Register Now"                    
                     BackgroundColor="White"
-                    TextColor="Blue"                    
-                    FontSize="Large"
-                    />
+                    TextColor="#008CFF"                    
+                    FontSize="Default"
+                    Margin="0,20,0,0"/>
 
     </StackLayout>
 
