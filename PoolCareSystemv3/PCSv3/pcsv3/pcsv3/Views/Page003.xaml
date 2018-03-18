@@ -75,11 +75,11 @@
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="Center"
                 Padding="20">
+            
             <Button x:Name="buttonsignup"
-                BackgroundColor="#008CFF" 
+                BackgroundColor="#008CFF"                    
                 Text="Sign up"  
-                    WidthRequest="300"
-                    />
+                WidthRequest="300"/>
         </StackLayout>
 
 

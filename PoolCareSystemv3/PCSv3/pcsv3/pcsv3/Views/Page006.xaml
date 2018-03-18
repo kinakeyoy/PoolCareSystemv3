@@ -20,7 +20,8 @@
         <Entry x:Name="entrymail"
                Placeholder="javier.noreña@gmail"
                PlaceholderColor="Gray" 
-               Focused
+               
+               
             />
         <Label x:Name="lblepass"
                TextColor="Black"
