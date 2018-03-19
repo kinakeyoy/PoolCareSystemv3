@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page021"
+             BackgroundColor="White">
+    
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Center" Padding="20">
+            <Label Text="Desde" FontSize="Large" TextColor="Black" HorizontalOptions="CenterAndExpand"></Label>
+
+            <DatePicker x:Name="dp" MaximumDate="2020/12/31" MinimumDate="2000/12/31" BackgroundColor="LightGray" TextColor="Black" Format="yyyy/MM/dd"></DatePicker>
+            <TimePicker x:Name="tp" BackgroundColor="LightGray" TextColor="Black" Format="T"></TimePicker>
+
+            <Label Text="Hasta" FontSize="Large" TextColor="Black" HorizontalOptions="CenterAndExpand"></Label>
+            <DatePicker x:Name="dp2" MaximumDate="2020/12/31" MinimumDate="2000/12/31" BackgroundColor="LightGray" TextColor="Black" Format="yyyy/MM/dd"></DatePicker>
+            <TimePicker x:Name="tp2" BackgroundColor="LightGray" TextColor="Black" Format="T" ></TimePicker>
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+
+</ContentPage>
