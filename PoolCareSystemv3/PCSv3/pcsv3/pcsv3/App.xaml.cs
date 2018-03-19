@@ -37,12 +37,7 @@ namespace pcsv3
             containerRegistry.RegisterForNavigation<Page005>();
             containerRegistry.RegisterForNavigation<Page006>();
             containerRegistry.RegisterForNavigation<Page007>();
-            containerRegistry.RegisterForNavigation<Page008>();
-            containerRegistry.RegisterForNavigation<PrismContentPage1>();
-            containerRegistry.RegisterForNavigation<Page021>();
-            containerRegistry.RegisterForNavigation<PrismContentPage1>();
-            containerRegistry.RegisterForNavigation<PrismContentPage1>();
-            containerRegistry.RegisterForNavigation<Page017>();
+            containerRegistry.RegisterForNavigation<Page010>();
         }
     }
 }

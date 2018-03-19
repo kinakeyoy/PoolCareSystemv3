@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page010"
+             BackgroundColor="White"
+             Title="Pagina 010">
+    <StackLayout x:Name="Stackprincipal"
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
+        <Image Source="perfil256.png"
+               WidthRequest="100"
+               HeightRequest="100"
+               HorizontalOptions="CenterAndExpand"
+               />
+        <Label x:Name="lblusername"
+               Text="Username"
+               TextColor="Black"
+               FontSize="12"
+               />
+        <StackLayout x:Name="Stackusername" 
+            Orientation="Horizontal">       
+        <Image Source="usernameico24.png"
+               WidthRequest="25"
+               HeightRequest="25"               
+               />
+        <Entry TextColor="Black" 
+               Placeholder="Username" 
+               PlaceholderColor="Gray" 
+               FontSize="12"
+                />
+        </StackLayout>
+        <Label x:Name="lblmail"
+               Text="Email"
+               TextColor="Black"
+               FontSize="12"
+               />
+        <StackLayout x:Name="Stackemail" 
+            Orientation="Horizontal">
+            <Image Source="email24.png"
+               WidthRequest="25"
+               HeightRequest="25"/>
+            <Entry TextColor="Black" 
+               Placeholder="Email" 
+               PlaceholderColor="Gray"
+               FontSize="12"/>
+        </StackLayout>
+        <Label x:Name="lblpass1"
+               Text="Password"
+               TextColor="Black"
+               FontSize="12"
+               />
+        <StackLayout x:Name="Stackpass1" 
+            Orientation="Horizontal">
+            <Image Source="key24.png"
+               WidthRequest="25"
+               HeightRequest="25"/>
+            <Entry TextColor="Black" 
+               Placeholder="Password" 
+               PlaceholderColor="Gray"
+               FontSize="12"
+                />
+        </StackLayout>
+        <Label x:Name="lblpass2"
+               Text="Confirm Password"
+               TextColor="Black"
+               FontSize="12"
+               />
+        <StackLayout x:Name="Stackpass2" 
+            Orientation="Horizontal">
+            <Image Source="key24.png"
+               WidthRequest="25"
+               HeightRequest="25"
+               
+               />
+            <Entry TextColor="Black" 
+               Placeholder="Confirm Password" 
+               PlaceholderColor="Gray"
+               FontSize="12"
+                />
+        </StackLayout>
+        <StackLayout x:Name="Stacktelefono" 
+            Orientation="Horizontal">
+            <Image Source="phone24.png"
+               WidthRequest="25"
+               HeightRequest="25"
+               
+               />
+            <Entry TextColor="Black" 
+               Placeholder="+57 123-4567" 
+               PlaceholderColor="Gray"
+               FontSize="12"
+                />
+          
+            <Picker x:Name="Pic" Title="Seleccione tipo"
+                   TextColor="Black"         
+                VerticalOptions="CenterAndExpand"               
+                    Margin="10, 0">
+                <Picker.Items>                    
+                    <x:String>Mobile</x:String>
+                    <x:String>Phone</x:String>                    
+                </Picker.Items>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+            
+        </StackLayout>
+        <StackLayout x:Name="Stacklist" Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     >
+            <Label HorizontalOptions="Start" TextColor="Black" Text="Agregar Monitores" ></Label>
+           
+            <Image HorizontalOptions="End" Source="add24.png"   WidthRequest="25"
+               HeightRequest="25"/>
+            
+        </StackLayout>
+        <StackLayout x:Name="Stackbut" Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <Button BackgroundColor="Red" x:Name="btncanelar" Text="Cancelar"></Button>
+            <Button x:Name="btnaceptar" BackgroundColor="Green" Text="Aceptar"></Button>
+
+        </StackLayout>
+    </StackLayout>
+
+
+    
+    
+</ContentPage>

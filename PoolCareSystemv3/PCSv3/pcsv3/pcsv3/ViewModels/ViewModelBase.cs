@@ -1,9 +1,8 @@
-﻿using Prism.Commands;
-using Prism.Mvvm;
+﻿using Prism.Mvvm;
 using Prism.Navigation;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Reflection;
+using Xamarin.Forms;
 
 namespace pcsv3.ViewModels
 {
@@ -42,5 +41,7 @@ namespace pcsv3.ViewModels
         {
             
         }
+     
+        
     }
 }
