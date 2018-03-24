@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page008"
+             BackgroundColor="White"
+             >
+    <Grid Padding="50">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="Auto"  />
+        </Grid.RowDefinitions>
+        <Label Text="Settings" TextColor="Blue" FontSize="Large" Grid.Row="0"/>
+        <StackLayout Orientation="Horizontal" x:Name="stackdevice"  Grid.Row="1" >
+            <Image Source="wireless64.png" />
+            <Button Text="Device"  TextColor="Black" BackgroundColor="Transparent">      
+            </Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" x:Name="stackalerts"  Grid.Row="2" >
+            <Image Source="alert64.png" />
+            <Button Text="Alerts"  TextColor="Black" BackgroundColor="Transparent">
+            </Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" x:Name="stackevent"  Grid.Row="3" >
+            <Image Source="date64.png" />
+            <Button Text="Events"  TextColor="Black" BackgroundColor="Transparent"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" x:Name="stackaccount"  Grid.Row="4" >
+            <Image Source="collaborato64.png" />
+            <Button Text="Accounts"  TextColor="Black" BackgroundColor="Transparent">
+            </Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" x:Name="stackacredit"  Grid.Row="5" >
+            <Image Source="credit64.png" />
+            <Button Text="Medios De Pago"  TextColor="Black" BackgroundColor="Transparent">
+            </Button>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
