@@ -2201,26 +2201,26 @@ namespace pcsv3.Droid
 			// aapt resource value: 0x7f020056
 			public const int avd_hide_password = 2130837590;
 			
-			// aapt resource value: 0x7f020122
-			public const int avd_hide_password_1 = 2130837794;
-			
-			// aapt resource value: 0x7f020123
-			public const int avd_hide_password_2 = 2130837795;
-			
 			// aapt resource value: 0x7f020124
-			public const int avd_hide_password_3 = 2130837796;
+			public const int avd_hide_password_1 = 2130837796;
+			
+			// aapt resource value: 0x7f020125
+			public const int avd_hide_password_2 = 2130837797;
+			
+			// aapt resource value: 0x7f020126
+			public const int avd_hide_password_3 = 2130837798;
 			
 			// aapt resource value: 0x7f020057
 			public const int avd_show_password = 2130837591;
 			
-			// aapt resource value: 0x7f020125
-			public const int avd_show_password_1 = 2130837797;
-			
-			// aapt resource value: 0x7f020126
-			public const int avd_show_password_2 = 2130837798;
-			
 			// aapt resource value: 0x7f020127
-			public const int avd_show_password_3 = 2130837799;
+			public const int avd_show_password_1 = 2130837799;
+			
+			// aapt resource value: 0x7f020128
+			public const int avd_show_password_2 = 2130837800;
+			
+			// aapt resource value: 0x7f020129
+			public const int avd_show_password_3 = 2130837801;
 			
 			// aapt resource value: 0x7f020058
 			public const int collaborato64 = 2130837592;
@@ -2795,11 +2795,11 @@ namespace pcsv3.Droid
 			// aapt resource value: 0x7f020116
 			public const int notification_icon_background = 2130837782;
 			
-			// aapt resource value: 0x7f020120
-			public const int notification_template_icon_bg = 2130837792;
+			// aapt resource value: 0x7f020122
+			public const int notification_template_icon_bg = 2130837794;
 			
-			// aapt resource value: 0x7f020121
-			public const int notification_template_icon_low_bg = 2130837793;
+			// aapt resource value: 0x7f020123
+			public const int notification_template_icon_low_bg = 2130837795;
 			
 			// aapt resource value: 0x7f020117
 			public const int notification_tile_bg = 2130837783;
@@ -2823,10 +2823,16 @@ namespace pcsv3.Droid
 			public const int usernameico24 = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int wireless24 = 2130837790;
+			public const int wifi128 = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int wireless64 = 2130837791;
+			public const int wifi512 = 2130837791;
+			
+			// aapt resource value: 0x7f020120
+			public const int wireless24 = 2130837792;
+			
+			// aapt resource value: 0x7f020121
+			public const int wireless64 = 2130837793;
 			
 			static Drawable()
 			{

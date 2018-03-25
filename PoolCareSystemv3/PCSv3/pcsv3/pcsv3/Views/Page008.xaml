@@ -15,27 +15,30 @@
             <RowDefinition Height="Auto"  />
             <RowDefinition Height="Auto"  />
         </Grid.RowDefinitions>
-        <Label Text="Settings" TextColor="Blue" FontSize="Large" Grid.Row="0"/>
-        <StackLayout Orientation="Horizontal" x:Name="stackdevice"  Grid.Row="1" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />  
+        </Grid.ColumnDefinitions>
+        <Label Text="Settings" TextColor="Blue" FontSize="Large" Grid.Row="0" Grid.Column="0"/>
+        <StackLayout Orientation="Horizontal" x:Name="stackdevice"  Grid.Row="1"  Grid.Column="0">
             <Image Source="wireless64.png" />
             <Button Text="Device"  TextColor="Black" BackgroundColor="Transparent">      
             </Button>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" x:Name="stackalerts"  Grid.Row="2" >
+        <StackLayout Orientation="Horizontal" x:Name="stackalerts"  Grid.Row="2" Grid.Column="0" >
             <Image Source="alert64.png" />
             <Button Text="Alerts"  TextColor="Black" BackgroundColor="Transparent">
             </Button>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" x:Name="stackevent"  Grid.Row="3" >
+        <StackLayout Orientation="Horizontal" x:Name="stackevent"  Grid.Row="3" Grid.Column="0" >
             <Image Source="date64.png" />
             <Button Text="Events"  TextColor="Black" BackgroundColor="Transparent"/>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" x:Name="stackaccount"  Grid.Row="4" >
+        <StackLayout Orientation="Horizontal" x:Name="stackaccount"  Grid.Row="4" Grid.Column="0" >
             <Image Source="collaborato64.png" />
             <Button Text="Accounts"  TextColor="Black" BackgroundColor="Transparent">
             </Button>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" x:Name="stackacredit"  Grid.Row="5" >
+        <StackLayout Orientation="Horizontal" x:Name="stackacredit"  Grid.Row="5" Grid.Column="0" >
             <Image Source="credit64.png" />
             <Button Text="Medios De Pago"  TextColor="Black" BackgroundColor="Transparent">
             </Button>
