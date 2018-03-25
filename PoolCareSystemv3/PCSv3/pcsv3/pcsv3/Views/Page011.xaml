@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"    
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page011"                    
+             BackgroundColor="White"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"  >
+    <ScrollView>
+    
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+                <RowDefinition Height="Auto"  />
+            </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+        <StackLayout x:Name="Stackprincipal" 
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
+                <Image Source="perfil256.png" Grid.Row="0" Grid.Column="0"
+               WidthRequest="100"
+               HeightRequest="100"
+               HorizontalOptions="CenterAndExpand"
+               />
+            <Label x:Name="lblusername" Grid.Row="0" Grid.Column="0"
+               Text="Username"
+               TextColor="Black"
+               FontSize="12"
+               />
+            <StackLayout x:Name="Stackusername" Grid.Row="2" Grid.Column="0"
+            Orientation="Horizontal">
+            <Image Source="usernameico24.png"
+               WidthRequest="25"
+               HeightRequest="25"               
+               />
+            <Entry TextColor="Black" 
+               Placeholder="Username" 
+               PlaceholderColor="Gray" 
+               FontSize="12"
+                />
+        </StackLayout>
+            <Label x:Name="lblmail" Grid.Row="3" Grid.Column="0"
+               Text="Email"
+               TextColor="Black"
+               FontSize="12"
+               />
+            <StackLayout x:Name="Stackemail" Grid.Row="4" Grid.Column="0"
+            Orientation="Horizontal">
+            <Image Source="email24.png"
+               WidthRequest="25"
+               HeightRequest="25"/>
+            <Entry TextColor="Black" 
+               Placeholder="Email" 
+               PlaceholderColor="Gray"
+               FontSize="12"/>
+        </StackLayout>
+            <Label x:Name="lblpass1" Grid.Row="5" Grid.Column="0"
+               Text="Password"
+               TextColor="Black"
+               FontSize="12"
+               />
+            <StackLayout x:Name="Stackpass1" Grid.Row="6" Grid.Column="0"
+            Orientation="Horizontal">
+            <Image Source="key24.png"
+               WidthRequest="25"
+               HeightRequest="25"/>
+            <Entry TextColor="Black" 
+               Placeholder="Password" 
+               PlaceholderColor="Gray"
+               FontSize="12"
+                />
+        </StackLayout>
+            <Label x:Name="lblpass2" Grid.Row="7" Grid.Column="0"
+               Text="Confirm Password"
+               TextColor="Black"
+               FontSize="12"
+               />
+            <StackLayout x:Name="Stackpass2" Grid.Row="8" Grid.Column="0"
+            Orientation="Horizontal">
+            <Image Source="key24.png"
+               WidthRequest="25"
+               HeightRequest="25"
+               
+               />
+            <Entry TextColor="Black" 
+               Placeholder="Confirm Password" 
+               PlaceholderColor="Gray"
+               FontSize="12"
+                />
+        </StackLayout>
+            <StackLayout x:Name="Stacktelefono" Grid.Row="9" Grid.Column="0"
+            Orientation="Horizontal">
+            <Image Source="phone24.png"
+               WidthRequest="25"
+               HeightRequest="25"
+               
+               />
+            <Entry TextColor="Black" 
+               Placeholder="+57 123-4567" 
+               PlaceholderColor="Gray"
+               FontSize="12"
+                />
+
+            <Picker x:Name="Pic" Title="Seleccione tipo"
+                   TextColor="Black"         
+                VerticalOptions="CenterAndExpand"               
+                    Margin="10, 0">
+                <Picker.Items>
+                    <x:String>Mobile</x:String>
+                    <x:String>Phone</x:String>
+                </Picker.Items>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+
+        </StackLayout>
+            <StackLayout x:Name="Stacklist"  
+                         Orientation="Horizontal" 
+                         HorizontalOptions="Start" Grid.Row="10" Grid.Column="0" >
+        
+
+        </StackLayout>
+            <Label x:Name="lblppermiso" Grid.Row="11" Grid.Column="0"
+               Text="Permisos"
+               TextColor="Black"
+               FontSize="12"
+               />
+            <StackLayout x:Name="Stackpermiso" Grid.Row="11" Grid.Column="0" >
+
+                    <controls:CheckBox DefaultText="Settings 1" Grid.Row="12" Grid.Column="0" 
+                           FontName="AmericanTypewriter"
+                           FontSize="12"
+                           HorizontalOptions="FillAndExpand"
+                           TextColor="Black" />
+                    <controls:CheckBox DefaultText="Settings 2" Grid.Row="13" Grid.Column="0" 
+                           FontName="AmericanTypewriter"
+                           FontSize="12"
+                           HorizontalOptions="FillAndExpand"
+                           TextColor="Black" />
+                    <controls:CheckBox DefaultText="Settings 3" Grid.Row="14" Grid.Column="0" 
+                           FontName="AmericanTypewriter"
+                           FontSize="12"
+                           HorizontalOptions="FillAndExpand"
+                           TextColor="Black" />
+                    <controls:CheckBox DefaultText="Settings 4" Grid.Row="15" Grid.Column="0" 
+                           FontName="AmericanTypewriter"
+                           FontSize="12"
+                           HorizontalOptions="FillAndExpand"
+                           TextColor="Black" />
+                    <controls:CheckBox DefaultText="Settings 5" Grid.Row="16" Grid.Column="0" 
+                           FontName="AmericanTypewriter"
+                           FontSize="12"
+                           HorizontalOptions="FillAndExpand"
+                           TextColor="Black" />
+                    <controls:CheckBox DefaultText="Settings 6" Grid.Row="17" Grid.Column="0" 
+                           FontName="AmericanTypewriter"
+                           FontSize="12"
+                           HorizontalOptions="FillAndExpand"
+                           TextColor="Black" />
+
+
+                </StackLayout>
+            <StackLayout x:Name="Stackbut" Grid.Row="18" Grid.Column="0" Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <Button BackgroundColor="Red" x:Name="btncanelar" Text="Cancelar"></Button>
+            <Button x:Name="btnaceptar" BackgroundColor="Green" Text="Aceptar"></Button>
+
+        </StackLayout>
+    </StackLayout>
+    </Grid>
+    </ScrollView>
+
+
+</ContentPage>

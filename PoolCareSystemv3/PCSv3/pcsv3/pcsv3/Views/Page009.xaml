@@ -8,10 +8,11 @@
     <Grid Padding="50">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"  />
-            <RowDefinition Height="Auto"  />       
+            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="Auto"  />           
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
         <Label Text="Settings Device" TextColor="Blue" FontSize="Large" Grid.Row="0" Grid.Column="0"/>
         <StackLayout Orientation="Horizontal" x:Name="stackdevice1"  Grid.Row="1"  Grid.Column="0">
