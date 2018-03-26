@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page012"
+             BackgroundColor="White"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms" 
+             Padding="10"
+             >
+
+    <TableView >
+        <TableView.Root>
+            <TableSection     Title="Delete Operador"  >
+                <ViewCell >
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                            <Label TextColor="Black" Text="#" WidthRequest="10"/>
+                            <Label TextColor="Black" Text="Username" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="Email" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="Password" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="Eliminar" WidthRequest="70"/>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                            <Label TextColor="Black" Text="1" WidthRequest="10"/>
+                            <Label TextColor="Black" Text="Jhon" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="@Example" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="12345" WidthRequest="70"/>
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" >
+                                <controls:CheckBox x:Name="chk1"  TextColor="Black"  BackgroundColor="Blue" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                            <Label TextColor="Black" Text="2" WidthRequest="10"/>
+                            <Label TextColor="Black" Text="Mary" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="@Example" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="12345" WidthRequest="70"/>
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" >
+                                <controls:CheckBox x:Name="chk2"  TextColor="Black"  BackgroundColor="Blue" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                            <Label TextColor="Black" Text="3" WidthRequest="10"/>
+                            <Label TextColor="Black" Text="James" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="@Example" WidthRequest="70"/>
+                            <Label TextColor="Black" Text="12345" WidthRequest="70"/>
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" >
+                                <controls:CheckBox x:Name="chk3"  TextColor="Black"  BackgroundColor="Blue" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+                <ViewCell  >
+                    <ViewCell.View>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                    <Button Text="Cancelar" BackgroundColor="Red"/>
+                    <Button Text=" Aceptar" BackgroundColor="Green"/>
+
+                </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+
+            </TableSection>
+        </TableView.Root>
+    </TableView>
+
+</ContentPage>
