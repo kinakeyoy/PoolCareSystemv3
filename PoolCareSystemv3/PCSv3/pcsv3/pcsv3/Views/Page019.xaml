@@ -3,19 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="pcsv3.Views.Page029"
+             x:Class="pcsv3.Views.Page019"
              BackgroundColor="White">
 
-    <StackLayout Padding="20">
+    <StackLayout>
         <Label VerticalTextAlignment="Center"
-               Text="Por favor, active el bluetooth de su dispositivo PoolCare"
+               Text="Tarjeta registrada satisfactoriamente"
                TextColor="Black"
                FontSize="Large"
                />
-        <Image Source="bluetooth.png" 
+        <Image Source="checkmark.png" 
                VerticalOptions="CenterAndExpand"
                />
-        <Button Text="Siguiente"
+        <Button Text="Aceptar"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
