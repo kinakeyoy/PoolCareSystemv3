@@ -18,8 +18,8 @@
                 </StackLayout>
                 <StackLayout  x:Name="stack3" Orientation="Horizontal">
                     <Picker x:Name="Pic" Title="Seleccione Ciudad"
-                   TextColor="Black"         
-                VerticalOptions="CenterAndExpand"               
+                    TextColor="Black"         
+                    VerticalOptions="CenterAndExpand"               
                     Margin="10, 0">
                         <Picker.Items>
                             <x:String>Bogota</x:String>
