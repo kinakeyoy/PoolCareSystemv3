@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page016"
+             BackgroundColor="White">
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label FontSize="Large" Text=" Tarjeta de Credito Tokenizada " TextColor="White" BackgroundColor="Blue"   Grid.Column="0" Grid.Row="0"/>
+        <Label FontSize="Large" HorizontalTextAlignment="Start" Text=" Titular" TextColor="Black"   Grid.Column="0" Grid.Row="1"/>
+
+
+        <Button 
+                IsEnabled="False"
+                BorderWidth="1"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand" 
+                BorderColor="Black"  
+                Text="Monshy " 
+                TextColor="Black" Grid.Column="0" Grid.Row="2" BackgroundColor="Transparent"  Margin="20"></Button>
+        <StackLayout Margin="0,200,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="3">
+            <Button FontSize="Large" Text="Aceptar" BackgroundColor="Green" Margin="0,0,100,0"></Button>
+            <Button FontSize="Large" Text="Eliminar" BackgroundColor="Red" ></Button>
+        </StackLayout>
+
+
+
+    </Grid>
+  
+</ContentPage>
