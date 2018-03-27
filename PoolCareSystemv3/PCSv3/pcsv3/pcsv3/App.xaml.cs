@@ -46,6 +46,7 @@ namespace pcsv3
             containerRegistry.RegisterForNavigation<Page029>();
             containerRegistry.RegisterForNavigation<Page019>();
             containerRegistry.RegisterForNavigation<Page013>();
+            containerRegistry.RegisterForNavigation<Page016>();
         }
     }
 }
