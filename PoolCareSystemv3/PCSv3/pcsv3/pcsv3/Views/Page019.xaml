@@ -17,6 +17,8 @@
                />
         <Image Source="checkmark.png" 
                VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               Aspect="AspectFill"
                />
         <Button Text="Aceptar"
                 TextColor="White"

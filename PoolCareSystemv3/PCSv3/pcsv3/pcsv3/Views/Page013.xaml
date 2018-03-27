@@ -11,7 +11,7 @@
 
         <StackLayout Padding="20">
 
-                <Label Text=" Reservation " BackgroundColor="Blue" TextColor="White" HorizontalOptions="Start"/>
+        <Label Text=" Reservation " BackgroundColor="#008CFF" TextColor="White" HorizontalOptions="Start"/>
                 <StackLayout  x:Name="stack2" Orientation="Horizontal">
                     <Label WidthRequest="150" TextColor="Black" Text="Location" HorizontalOptions="Start" />
                     <Label WidthRequest="150" Margin="70,0,0,0" TextColor="Black" HorizontalOptions="End" Text="Date"/>
@@ -29,9 +29,9 @@
                     </Picker>
                     <DatePicker TextColor="Black" x:Name="StartDatePicker" Format="MM-dd-yyyy" MinimumDate="04/02/2018" />
                 </StackLayout>
-
+       
         <Label TextColor="Black" Text="What Services are needed ?" HorizontalOptions="Start" />
-        <controls:CheckBox x:Name="chk1" DefaultText="Pool Cleaning " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk1" DefaultText="Pool Cleaning " TextColor="Black" />
         <controls:CheckBox x:Name="chk2" DefaultText="Tratamiento de Agua " TextColor="Black"   />
         <controls:CheckBox x:Name="chk3" DefaultText="Limpieza de Hidromasajes " TextColor="Black"   />
         <controls:CheckBox x:Name="chk4" DefaultText="Reparación Hidraulica " TextColor="Black"   />
@@ -40,7 +40,7 @@
         <controls:CheckBox x:Name="chk7" DefaultText="Mantenimiento de Bombas" TextColor="Black"   />
         <controls:CheckBox x:Name="chk8" DefaultText="Reparación de filtro " TextColor="Black"   />
         <controls:CheckBox x:Name="chk9" DefaultText="Otro Servicios " TextColor="Black"   />
-        <Button x:Name="btnreservar" Text="Reservar" BackgroundColor="Blue"/>
+        <Button x:Name="btnreservar" Text="Reservar" BackgroundColor="#008CFF"/>
 
     </StackLayout>
 
