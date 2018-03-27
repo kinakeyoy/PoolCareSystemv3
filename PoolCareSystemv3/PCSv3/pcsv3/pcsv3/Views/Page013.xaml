@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page013"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms" 
+             BackgroundColor="Gray"
+             >
+    
+
+        <StackLayout Padding="20">
+
+                <Label Text=" Reservation " BackgroundColor="Blue" TextColor="White" HorizontalOptions="Start"/>
+                <StackLayout  x:Name="stack2" Orientation="Horizontal">
+                    <Label WidthRequest="150" TextColor="Black" Text="Location" HorizontalOptions="Start" />
+                    <Label WidthRequest="150" Margin="70,0,0,0" TextColor="Black" HorizontalOptions="End" Text="Date"/>
+                </StackLayout>
+                <StackLayout  x:Name="stack3" Orientation="Horizontal">
+                    <Picker x:Name="Pic" Title="Seleccione Ciudad"
+                   TextColor="Black"         
+                VerticalOptions="CenterAndExpand"               
+                    Margin="10, 0">
+                        <Picker.Items>
+                            <x:String>Bogota</x:String>
+                            <x:String>Cartagena</x:String>
+                        </Picker.Items>
+                        <Picker.SelectedIndex>0</Picker.SelectedIndex>
+                    </Picker>
+                    <DatePicker TextColor="Black" x:Name="StartDatePicker" Format="MM-dd-yyyy" MinimumDate="04/02/2018" />
+                </StackLayout>
+
+        <Label TextColor="Black" Text="What Services are needed ?" HorizontalOptions="Start" />
+        <controls:CheckBox x:Name="chk1" DefaultText="Pool Cleaning " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk2" DefaultText="Tratamiento de Agua " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk3" DefaultText="Limpieza de Hidromasajes " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk4" DefaultText="Reparación Hidraulica " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk5" DefaultText="Detección de Fugas " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk6" DefaultText="Reparación de Calentador " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk7" DefaultText="Mantenimiento de Bombas" TextColor="Black"   />
+        <controls:CheckBox x:Name="chk8" DefaultText="Reparación de filtro " TextColor="Black"   />
+        <controls:CheckBox x:Name="chk9" DefaultText="Otro Servicios " TextColor="Black"   />
+        <Button x:Name="btnreservar" Text="Reservar" BackgroundColor="Blue"/>
+
+    </StackLayout>
+
+
+
+</ContentPage>

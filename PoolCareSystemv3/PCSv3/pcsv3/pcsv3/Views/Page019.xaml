@@ -6,7 +6,10 @@
              x:Class="pcsv3.Views.Page019"
              BackgroundColor="White">
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20"
+        >
         <Label VerticalTextAlignment="Center"
                Text="Tarjeta registrada satisfactoriamente"
                TextColor="Black"
