@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page015"
+             BackgroundColor="White"
+             >
+
+    <StackLayout x:Name="stackprincipal"
+                 HorizontalOptions="StartAndExpand"
+                 Padding="20"
+                 Spacing="1"
+                 
+                 
+                 >
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label TextColor="Blue"  Text="Tarjeta de Credito" Grid.Column="0" Grid.Row="0"/>
+            <Image Source="credit64.png"  Grid.Column="0" Grid.Row="1"/>
+            <Label  TextColor="Black"  Text="Visa Tokenizada" Grid.Column="1" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Image Source="factura64.png"  Grid.Column="0" Grid.Row="3"/>
+            <Label  TextColor="Black"  Text="Facturacion" Grid.Column="1" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        </Grid>
+
+
+    </StackLayout>
+  
+</ContentPage>
