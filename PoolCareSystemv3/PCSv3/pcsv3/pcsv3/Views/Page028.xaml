@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page028"
+             BackgroundColor="White">
+
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
+
+        <Label VerticalTextAlignment="Center"
+               Text="Código no válido, por favor contactar a soporte."
+               TextColor="Black"
+               FontSize="Large" 
+               />
+        <Image Source="customerservice.png" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               Aspect="AspectFill"
+               Margin="50"/>
+        <Button Text="Atrás"
+                TextColor="White"
+                FontSize="Large"
+                BackgroundColor="#008CFF"
+                
+                Margin="0,30,0,0"
+                />
+    </StackLayout>
+
+</ContentPage>
