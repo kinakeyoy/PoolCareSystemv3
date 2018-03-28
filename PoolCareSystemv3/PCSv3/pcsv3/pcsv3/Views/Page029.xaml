@@ -6,22 +6,25 @@
              x:Class="pcsv3.Views.Page029"
              BackgroundColor="White">
 
-    <StackLayout Padding="20">
-        <Label VerticalTextAlignment="Center" Margin="30"
-               Text="Por favor, active el bluetooth de su dispositivo PoolCare"
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
+        <Label VerticalTextAlignment="Center"
+               Text="Por favor, active el bluetooth de su dispositivo Pool Care"
                TextColor="Black"
-               FontSize="Large"
+               FontSize="Large" 
                />
         <Image Source="bluetooth.png" 
                VerticalOptions="CenterAndExpand"
-               
-               />
+               HorizontalOptions="CenterAndExpand"
+               Aspect="AspectFill"
+               Margin="50"/>
         <Button Text="Siguiente"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
-                VerticalOptions="Center"
-                Margin="20,40,20,20"
+                
+                Margin="0,30,0,0"
                 />
     </StackLayout>
   
