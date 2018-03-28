@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="pcsv3.Views.Page032"
+             x:Class="pcsv3.Views.Page033"
              BackgroundColor="White">
 
     <StackLayout HorizontalOptions="CenterAndExpand"
@@ -11,23 +11,16 @@
                  Padding="20">
 
         <Label VerticalTextAlignment="Center"
-               Text="Dispositivo registrado satisfactoriamente"
+               Text="Coloque las dimensiones de su piscina"
                TextColor="Black"
                FontSize="Large"
                />
-        <Image Source="checked.png" 
+        <Image Source="pool.png" 
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"
                Aspect="AspectFill"
-               Margin="50"/>
-        <Label VerticalTextAlignment="Center"
-               Text="Pool name"
-               TextColor="Black"
-               FontSize="Large"
-               />
-        <Entry VerticalTextAlignment="Center"
-               Placeholder="Coloque el nombre de la piscina" PlaceholderColor="Gray"
-               />
+               Margin="20"/>
+        
         <Button Text="Aceptar"
                 TextColor="White"
                 FontSize="Large"
@@ -36,5 +29,6 @@
                 Margin="0,30,0,0"
                 />
     </StackLayout>
+
 
 </ContentPage>
