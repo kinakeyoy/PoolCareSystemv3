@@ -15,16 +15,16 @@
                TextColor="Black"
                FontSize="Large"
                />
-        <Image Source="checkmark.png" 
+        <Image Source="checked.png" 
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"
                Aspect="AspectFill"
-               />
+               Margin="50"/>
         <Button Text="Aceptar"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
-                HorizontalOptions="CenterAndExpand"
+                
                 Margin="0,30,0,0"
                 />
     </StackLayout>

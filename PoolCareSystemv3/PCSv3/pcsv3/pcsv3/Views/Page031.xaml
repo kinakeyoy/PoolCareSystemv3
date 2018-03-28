@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page031"
+             BackgroundColor="White">
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
+        <Label Text="Favor agregue su clave wifi al dispositivo" TextColor="Black" FontSize="Large"
+               HorizontalOptions="CenterAndExpand" 
+               />
+        <Label Text="SSID" TextColor="Black" FontSize="Large" HorizontalOptions="Center" Margin="0,20,0,0"/>
+        <Entry Placeholder="Nombre de red" PlaceholderColor="Gray" Margin="0,20,0,0" HorizontalOptions="CenterAndExpand"/>
+        <Label Text="Password" TextColor="Black"  FontSize="Large" 
+               HorizontalOptions="Center" Margin="0,20,0,0"/>
+        <Entry Placeholder="Password" PlaceholderColor="Gray" Margin="0,20,0,0" 
+               HorizontalOptions="CenterAndExpand"/>
+        <StackLayout Padding="20" Margin="0,20,0,0">
+            <Button x:Name="btnAcept" Text="Probar conexión" TextColor="White" BackgroundColor="#008CFF" 
+                VerticalOptions="CenterAndExpand">
+            </Button>
+        </StackLayout>
+
+    </StackLayout>
+  
+</ContentPage>

@@ -3,26 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="pcsv3.Views.Page029"
+             x:Class="pcsv3.Views.Page026"
              BackgroundColor="White">
 
-    <StackLayout Padding="20">
-        <Label VerticalTextAlignment="Center" Margin="30"
-               Text="Por favor, active el bluetooth de su dispositivo PoolCare"
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
+
+        <Label VerticalTextAlignment="Center"
+               Text="Escanear el código QR de su dispositivo Pool Care "
                TextColor="Black"
                FontSize="Large"
                />
-        <Image Source="bluetooth.png" 
+        <Image Source="qrcode.png" 
                VerticalOptions="CenterAndExpand"
-               
-               />
-        <Button Text="Siguiente"
+               HorizontalOptions="CenterAndExpand"
+               Aspect="AspectFill"
+               Margin="50"/>
+        <Button Text="Escanear"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
-                VerticalOptions="Center"
-                Margin="20,40,20,20"
+                
+                Margin="0,30,0,0"
                 />
     </StackLayout>
-  
+
 </ContentPage>
