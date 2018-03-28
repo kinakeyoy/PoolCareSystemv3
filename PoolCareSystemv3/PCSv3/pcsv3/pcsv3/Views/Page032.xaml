@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="pcsv3.Views.Page019"
+             x:Class="pcsv3.Views.Page032"
              BackgroundColor="White">
 
     <StackLayout HorizontalOptions="CenterAndExpand"
@@ -11,7 +11,7 @@
                  Padding="20"
         >
         <Label VerticalTextAlignment="Center"
-               Text="Tarjeta registrada satisfactoriamente"
+               Text="Dispositivo registrado satisfactoriamente"
                TextColor="Black"
                FontSize="Large"
                />
@@ -28,5 +28,5 @@
                 Margin="0,30,0,0"
                 />
     </StackLayout>
-  
+
 </ContentPage>

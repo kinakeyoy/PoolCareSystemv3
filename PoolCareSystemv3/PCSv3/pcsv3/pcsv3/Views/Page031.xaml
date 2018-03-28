@@ -5,7 +5,9 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="pcsv3.Views.Page031"
              BackgroundColor="White">
-    <StackLayout Padding="30">
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
         <Label Text="Favor agregue su clave wifi al dispositivo" TextColor="Black" FontSize="Large"
                HorizontalOptions="CenterAndExpand" 
                />
