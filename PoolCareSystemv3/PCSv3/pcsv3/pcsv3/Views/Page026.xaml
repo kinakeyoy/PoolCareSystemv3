@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="pcsv3.Views.Page032"
+             x:Class="pcsv3.Views.Page026"
              BackgroundColor="White">
 
     <StackLayout HorizontalOptions="CenterAndExpand"
@@ -11,16 +11,16 @@
                  Padding="20">
 
         <Label VerticalTextAlignment="Center"
-               Text="Dispositivo registrado satisfactoriamente"
+               Text="Escanear el código QR de su dispositivo Pool Care "
                TextColor="Black"
                FontSize="Large"
                />
-        <Image Source="checked.png" 
+        <Image Source="qrcode.png" 
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"
                Aspect="AspectFill"
                Margin="50"/>
-        <Button Text="Aceptar"
+        <Button Text="Escanear"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
