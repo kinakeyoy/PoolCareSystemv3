@@ -6,7 +6,7 @@
              x:Class="pcsv3.Views.Page030"
              BackgroundColor="White">
 
-    <StackLayout>
+    <StackLayout Padding="20" Margin="0,30,0,0">
         <Label Text="Su teléfono es visible para los dispositivos cercanos" TextColor="Black"
                FontSize="Large" HorizontalTextAlignment="Center" Margin="0,40,0,0"
                />
@@ -15,11 +15,11 @@
                />
         <StackLayout Padding="20" Margin="0,30,0,0">
 
-         <Button BackgroundColor="#008CFF" Text="Pool Care Bluetooth" VerticalOptions="CenterAndExpand"
+            <Button BackgroundColor="#008CFF" Text="Pool Care Bluetooth" VerticalOptions="CenterAndExpand"
             />
-        <Button BackgroundColor="#008CFF" Text="Selfie cercano" VerticalOptions="CenterAndExpand"
+            <Button BackgroundColor="#008CFF" Text="Selfie cercano" VerticalOptions="CenterAndExpand"
             />
-        <Button BackgroundColor="#008CFF" Text="Otro teléfono" VerticalOptions="CenterAndExpand"
+            <Button BackgroundColor="#008CFF" Text="Otro teléfono" VerticalOptions="CenterAndExpand"
             />
         </StackLayout>
 
