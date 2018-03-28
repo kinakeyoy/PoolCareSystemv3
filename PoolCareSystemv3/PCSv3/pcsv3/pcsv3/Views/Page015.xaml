@@ -11,8 +11,6 @@
                  HorizontalOptions="StartAndExpand"
                  Padding="20"
                  Spacing="1"
-                 
-                 
                  >
         <Grid >
             <Grid.RowDefinitions>
