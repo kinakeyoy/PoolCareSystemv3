@@ -26,12 +26,12 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Label TextColor="Blue"  Text="Tarjeta de Credito" Grid.Column="0" Grid.Row="0"/>
-            <Image Source="credit64.png"  Grid.Column="0" Grid.Row="1"/>
+            <Image Source="credit64.png"  Grid.Column="0" Grid.Row="1" WidthRequest="64" HeightRequest="64"/>
             <Label  TextColor="Black"  Text="Visa Tokenizada" Grid.Column="1" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"/>
-            <Image Source="factura64.png"  Grid.Column="0" Grid.Row="3"/>
+            <Image Source="factura64.png"  Grid.Column="0" Grid.Row="3" WidthRequest="64" HeightRequest="64"/>
             <Label  TextColor="Black"  Text="Facturacion" Grid.Column="1" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"/>
             
-            <Image Margin="0,200,0,0"  HorizontalOptions="EndAndExpand" Source="plusblack128.png" WidthRequest="64" Grid.Column="1" Grid.Row="4"/>
+            <Image Margin="0,200,0,0"  HorizontalOptions="EndAndExpand" Source="plusblack128.png" WidthRequest="64" HeightRequest="64" Grid.Column="1" Grid.Row="3"/>
             
         </Grid>
 
