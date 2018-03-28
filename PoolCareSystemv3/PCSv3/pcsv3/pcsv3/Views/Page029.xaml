@@ -7,22 +7,21 @@
              BackgroundColor="White">
 
     <StackLayout Padding="20">
-        <Label VerticalTextAlignment="Center"
+        <Label VerticalTextAlignment="Center" Margin="30"
                Text="Por favor, active el bluetooth de su dispositivo PoolCare"
                TextColor="Black"
                FontSize="Large"
                />
         <Image Source="bluetooth.png" 
                VerticalOptions="CenterAndExpand"
-               HorizontalOptions="CenterAndExpand"
-               Aspect="AspectFill"
+               
                />
         <Button Text="Siguiente"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
-                HorizontalOptions="CenterAndExpand"
-                Margin="0,30,0,0"
+                VerticalOptions="Center"
+                Margin="20,40,20,20"
                 />
     </StackLayout>
   
