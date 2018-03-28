@@ -27,7 +27,6 @@
                TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,40,0,0"
                />
         
-
     </StackLayout>
   
 </ContentPage>
