@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="pcsv3.Views.Page022"
+             BackgroundColor="White">
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+       
+
+        <Label Text=" Despositivos Registrado " BackgroundColor="Blue" TextColor="White" Grid.Row="0" Grid.Column="0" />
+        <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
+            <Image Source="ic_launcher.png" />
+            <StackLayout Padding="20" VerticalOptions="CenterAndExpand">
+                <Label TextColor="Black" Text="Adulto" />
+                <Label TextColor="Black" Text="192.168.0.12"/>
+            </StackLayout>        
+
+        </StackLayout>
+        <Label Grid.Row="2" Grid.Column="0" Text="Conectado" TextColor="Green" FontSize="Large"/>
+        <StackLayout Grid.Row="3" Grid.Column="0" 
+                     Orientation="Horizontal" 
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand"
+                     >
+            <Button Text="Editar" BackgroundColor="Blue" TextColor="White"/>
+            <Button Text=" Eliminar" BackgroundColor="Blue" TextColor="White"/>
+
+
+        </StackLayout>
+
+
+    </Grid>
+</ContentPage>
