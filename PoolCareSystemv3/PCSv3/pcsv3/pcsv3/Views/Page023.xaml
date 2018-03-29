@@ -4,6 +4,36 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="pcsv3.Views.Page023"
-             >
-  
+             BackgroundColor="White">
+
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="20">
+
+        <Label VerticalTextAlignment="Center"
+               Text="¿Seguro desea eliminar su dispositivo?"
+               TextColor="Black"
+               FontSize="Large" 
+               />
+        <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+               Text="- name binding -"
+               TextColor="Black"
+               FontSize="Large" Margin="0,30,0,0"
+               />
+        
+        <Image Source="warning.png" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               Aspect="AspectFill"
+               Margin="0,20,0,20"/>
+
+        <Button Text="Aceptar"
+                TextColor="White"
+                FontSize="Large"
+                BackgroundColor="#008CFF"
+ 
+                Margin="0,30,0,0"
+                />
+    </StackLayout>
+
 </ContentPage>
