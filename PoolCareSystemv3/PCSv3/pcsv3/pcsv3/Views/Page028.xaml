@@ -20,7 +20,7 @@
                HorizontalOptions="CenterAndExpand"
                Aspect="AspectFill"
                Margin="50"/>
-        <Button Text="Atrás"
+        <Button Text="Contactar soporte"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
