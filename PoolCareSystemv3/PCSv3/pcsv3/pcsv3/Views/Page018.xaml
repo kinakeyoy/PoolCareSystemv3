@@ -6,7 +6,7 @@
              x:Class="pcsv3.Views.Page018"
              BackgroundColor="White"
              >
-    <Grid Padding="20" >
+    <Grid Padding="20,10,20,10" >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -16,13 +16,37 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />            
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />            
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        <Label Text="Registro tarjeta de credito"/>
+        <Label  Text=" Registro Tarjeta de Credito " BackgroundColor="Blue" TextColor="White" FontSize="Medium" Grid.Column="0" Grid.Row="0"/>
+        <Label  Text=" Digite La tarjeta de Credito " Margin="0,20,0,0" TextColor="Black" FontSize="Small" Grid.Column="0" Grid.Row="1"/>
+        <Label  Text=" Numero " Margin="0,20,0,0" TextColor="Black" FontSize="Small" Grid.Column="0" Grid.Row="2"/>
+        <StackLayout Grid.Column="0" Grid.Row="3" Orientation="Horizontal" BackgroundColor="Transparent" HorizontalOptions="Center">
+            <Entry Keyboard="Numeric" x:Name="entry01"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry  Keyboard="Numeric" x:Name="entry02"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry  Keyboard="Numeric" x:Name="entry03"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry Keyboard="Numeric" x:Name="entry04"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry Keyboard="Numeric" x:Name="entry05"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry Keyboard="Numeric" x:Name="entry06"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry Keyboard="Numeric" x:Name="entry07"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry  Keyboard="Numeric" x:Name="entry08"  Placeholder="0" PlaceholderColor="Gray" TextColor="Black"/>
+        </StackLayout >
+        <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="4" >
+            <Label TextColor="Black" Text="Fecha De Vencimiento" />
+            <Label  Margin="50,0,0,0" TextColor="Black" Text="CCV" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="5" >
+            <DatePicker TextColor="Black"  />
+            <Entry Keyboard="Numeric"  Margin="90,0,0,0" TextColor="Black" PlaceholderColor="Gray" Placeholder="000" />
+        </StackLayout>
+        <Label  Text="Titular" TextColor="Black" FontSize="Medium" Grid.Column="0" Grid.Row="6"/>
+        <Entry   Placeholder="Javier Noreña" PlaceholderColor="Gray" TextColor="Black" FontSize="Medium" Grid.Column="0" Grid.Row="7"/>
+        <Button x:Name="btnaceptar" Text="Aceptar" TextColor="White" BackgroundColor="Green" Grid.Column="0" Grid.Row="8" HorizontalOptions="Center" VerticalOptions="Center"/>
 
     </Grid>
-  
+    
+
 </ContentPage>
