@@ -4,7 +4,7 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="pcsv3.Views.Page023"
-             BackgroundColor="Black">
+             BackgroundColor="White">
 
     <StackLayout HorizontalOptions="CenterAndExpand"
                  VerticalOptions="CenterAndExpand"
@@ -36,4 +36,8 @@
                 />
     </StackLayout>
 
+=======
+             >
+  
+>>>>>>> edef262dfe86e90afea7c011d9a032836981c607
 </ContentPage>
