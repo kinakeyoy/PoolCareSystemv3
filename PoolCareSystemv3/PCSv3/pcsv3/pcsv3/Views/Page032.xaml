@@ -20,6 +20,14 @@
                HorizontalOptions="CenterAndExpand"
                Aspect="AspectFill"
                Margin="50"/>
+        <Label VerticalTextAlignment="Center"
+               Text="Pool name"
+               TextColor="Black"
+               FontSize="Large"
+               />
+        <Entry VerticalTextAlignment="Center"
+               Placeholder="Coloque el nombre de la piscina" PlaceholderColor="Gray"
+               />
         <Button Text="Aceptar"
                 TextColor="White"
                 FontSize="Large"

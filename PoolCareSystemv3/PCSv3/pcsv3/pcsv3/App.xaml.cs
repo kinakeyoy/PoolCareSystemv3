@@ -37,24 +37,22 @@ namespace pcsv3
             containerRegistry.RegisterForNavigation<Page005>();
             containerRegistry.RegisterForNavigation<Page006>();
             containerRegistry.RegisterForNavigation<Page007>();
+            containerRegistry.RegisterForNavigation<Page010>();
+            containerRegistry.RegisterForNavigation<pruebagrid>();
             containerRegistry.RegisterForNavigation<Page008>();
             containerRegistry.RegisterForNavigation<Page009>();
-            containerRegistry.RegisterForNavigation<Page010>();
             containerRegistry.RegisterForNavigation<Page011>();
             containerRegistry.RegisterForNavigation<Page012>();
-            containerRegistry.RegisterForNavigation<Page013>();
-            containerRegistry.RegisterForNavigation<Page015>();
-            containerRegistry.RegisterForNavigation<Page016>();
-            containerRegistry.RegisterForNavigation<Page017>();
-            containerRegistry.RegisterForNavigation<Page018>();
-            containerRegistry.RegisterForNavigation<Page019>();
-            containerRegistry.RegisterForNavigation<Page021>();
-            containerRegistry.RegisterForNavigation<Page026>();
             containerRegistry.RegisterForNavigation<Page029>();
-            containerRegistry.RegisterForNavigation<Page030>();
+            containerRegistry.RegisterForNavigation<Page019>();
+            containerRegistry.RegisterForNavigation<Page013>();
+            containerRegistry.RegisterForNavigation<Page016>();
+            containerRegistry.RegisterForNavigation<Page030>();            
             containerRegistry.RegisterForNavigation<Page031>();
             containerRegistry.RegisterForNavigation<Page032>();
-            containerRegistry.RegisterForNavigation<pruebagrid>();
+            containerRegistry.RegisterForNavigation<Page026>();
+            containerRegistry.RegisterForNavigation<Page028>();
+            containerRegistry.RegisterForNavigation<Page033>();
         }
     }
 }

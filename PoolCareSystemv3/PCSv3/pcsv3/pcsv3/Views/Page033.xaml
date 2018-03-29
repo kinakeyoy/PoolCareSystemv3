@@ -3,23 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="pcsv3.Views.Page029"
+             x:Class="pcsv3.Views.Page033"
              BackgroundColor="White">
 
     <StackLayout HorizontalOptions="CenterAndExpand"
                  VerticalOptions="CenterAndExpand"
                  Padding="20">
+
         <Label VerticalTextAlignment="Center"
-               Text="Por favor, active el bluetooth de su dispositivo Pool Care"
+               Text="Coloque las dimensiones de su piscina"
                TextColor="Black"
-               FontSize="Large" 
+               FontSize="Large"
                />
-        <Image Source="bluetooth.png" 
+        <Image Source="pool.png" 
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"
                Aspect="AspectFill"
-               Margin="50"/>
-        <Button Text="Siguiente"
+               Margin="20"/>
+        
+        <Button Text="Aceptar"
                 TextColor="White"
                 FontSize="Large"
                 BackgroundColor="#008CFF"
@@ -27,5 +29,6 @@
                 Margin="0,30,0,0"
                 />
     </StackLayout>
-  
+
+
 </ContentPage>
