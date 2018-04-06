@@ -30,14 +30,9 @@
         <Button Text="Aceptar"
                 TextColor="White"
                 FontSize="Large"
-                BackgroundColor="#008CFF"
- 
-                Margin="0,30,0,0"
-                />
+                BackgroundColor="#008CFF" 
+                Margin="0,30,0,0" />
     </StackLayout>
 
-=======
-             >
-  
->>>>>>> edef262dfe86e90afea7c011d9a032836981c607
+
 </ContentPage>
